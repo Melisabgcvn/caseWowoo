@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+dlib
+opencv-python-headless
+numpy
+imutils
+Pillow
+mtcnn
+matplotlib
