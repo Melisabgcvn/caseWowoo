@@ -1,6 +1,8 @@
-1 Yüz Tanıma Modelinin kurulumu ve kullanılması 
+# 1 Yüz Tanıma Modelinin kurulumu ve kullanılması 
 
-Öncelikle MTCNN modelinin kurulumu yapılır.
+# MTCNN 
+
+-Öncelikle MTCNN modelinin kurulumu yapılır.
 
 pip install mtcnn pillow
 
@@ -11,10 +13,7 @@ MTCNN modeli kullanılarak resimdeki yüz tespit edilir. Tespit edilen yüz kır
 
 <img width="684" alt="Screenshot 2024-07-14 at 15 28 18" src="https://github.com/user-attachments/assets/1beec5a4-1f6d-4a07-82fe-9de8ffd0bf04">
 
-2.   Dlib ile Yüz Tanıma
-
-   
-<img width="792" alt="Screenshot 2024-07-14 at 15 27 06" src="https://github.com/user-attachments/assets/a66c0df6-a1ce-49a5-ab2c-a9dfb4b91546">
+ # Dlib 
 
 -Kütüphane kurulumunun terminal üzerinden yapılması
 pip install dlib opencv-python
@@ -29,9 +28,11 @@ Adresi üzerinden dat dosyalarının indirilmesi gerekemektedir.
 
 pip install imutils
 Denilerek kütüphane kurulumu yapılır.
+   
+<img width="792" alt="Screenshot 2024-07-14 at 15 27 06" src="https://github.com/user-attachments/assets/a66c0df6-a1ce-49a5-ab2c-a9dfb4b91546">
 
 
-2. FastApi kurulumu 
+# 2. FastApi kurulumu 
 
 -pip install fastapi uvicorn
 ile Fast api kurulumlarını yapıyoruz. 
@@ -53,7 +54,7 @@ Terminal üzerinden komut ile uygulama başlatılır.
 Master : dosyanın ismi(master.py)
 
 
-3. DOCKER KURULUMU
+# 3. DOCKER KURULUMU
 https://www.docker.com/products/docker-desktop/
 Sitesi üzerinden işletim sisteminize uygun docker desktop uygulamasının indirilmesi gerekmektedir.
 
